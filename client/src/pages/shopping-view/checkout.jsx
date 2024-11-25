@@ -131,4 +131,3 @@ function ShoppingCheckout() {
 }
 
 export default ShoppingCheckout;
-  
