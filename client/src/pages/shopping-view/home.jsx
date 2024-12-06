@@ -16,7 +16,7 @@ import {
   UmbrellaIcon,
   WashingMachine,
   WatchIcon,
-} from "lucide-react";
+} from "lucide-react";  
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
