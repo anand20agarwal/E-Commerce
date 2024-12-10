@@ -15,7 +15,7 @@ import {
   ShoppingBasket,
   UmbrellaIcon,
   WashingMachine,
-  WatchIcon,
+  WatchIcon,  
 } from "lucide-react";  
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
