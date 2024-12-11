@@ -10,7 +10,7 @@ import {
   CloudLightning,
   Heater,
   Images,
-  Shirt,
+  Shirt,  
   ShirtIcon,
   ShoppingBasket,
   UmbrellaIcon,
