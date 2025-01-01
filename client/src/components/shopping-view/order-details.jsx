@@ -12,7 +12,7 @@ function ShoppingOrderDetailsView({ orderDetails }) {
       <div className="grid gap-6">
         <div className="grid gap-2">
           <div className="flex mt-6 items-center justify-between">
-            <p className="font-medium">Order ID</p>
+            <p className="font-medium">Order ID</p>       
             <Label>{orderDetails?._id}</Label>
           </div>
           <div className="flex mt-2 items-center justify-between">
