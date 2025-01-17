@@ -40,7 +40,7 @@ const categoriesWithIcon = [
 ];
 
 const brandsWithIcon = [
-  { id: "nike", label: "Nike", icon: Shirt },     
+  { id: "nike", label: "Nike", icon: Shirt },
   { id: "adidas", label: "Adidas", icon: WashingMachine },        
   { id: "puma", label: "Puma", icon: ShoppingBasket },
   { id: "levi", label: "Levi's", icon: Airplay },
