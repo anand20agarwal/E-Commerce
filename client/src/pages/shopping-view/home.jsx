@@ -39,7 +39,7 @@ const categoriesWithIcon = [
   { id: "footwear", label: "Footwear", icon: UmbrellaIcon },
 ];
 
-const brandsWithIcon = [  
+const brandsWithIcon = [    
   { id: "nike", label: "Nike", icon: Shirt },   
   { id: "adidas", label: "Adidas", icon: WashingMachine },        
   { id: "puma", label: "Puma", icon: ShoppingBasket },
