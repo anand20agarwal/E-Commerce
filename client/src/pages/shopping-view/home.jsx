@@ -8,7 +8,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   CloudLightning,
-  Heater,
+  Heater, 
   Images,
   Shirt, 
   ShirtIcon,
