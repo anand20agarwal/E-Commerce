@@ -11,7 +11,7 @@ import {
   Heater, 
   Images,
   Shirt, 
-  ShirtIcon,
+  ShirtIcon,  
   ShoppingBasket,
   UmbrellaIcon,
   WashingMachine,
