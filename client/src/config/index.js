@@ -114,27 +114,27 @@ export const shoppingViewHeaderMenuItems = [
   },
   {
     id: "men",
-    label: "Men",
+    label: "Indian",
     path: "/shop/listing",
   },
   {
-    id: "women",
-    label: "Women",
+    id: "Chinese",
+    label: "Sweet", 
     path: "/shop/listing",
   },
   {
     id: "kids",
-    label: "Kids",
+    label: "Itilain",
     path: "/shop/listing",
   },
   {
     id: "footwear",
-    label: "Footwear",
+    label: "Mexican",
     path: "/shop/listing",
   },
   {
     id: "accessories",
-    label: "Accessories",
+    label: "Spicy",
     path: "/shop/listing",
   },
   {
@@ -163,19 +163,19 @@ export const brandOptionsMap = {
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
-    { id: "accessories", label: "Accessories" },
-    { id: "footwear", label: "Footwear" },
+    { id: "men", label: "Resturant 1" },
+    { id: "women", label: "Resturant 2" },
+    { id: "kids", label: "Resturant 3" },
+    { id: "accessories", label: "Resturant 4" },
+    { id: "footwear", label: "Resturant 5" },
   ],
   brand: [
-    { id: "nike", label: "Nike" },
-    { id: "adidas", label: "Adidas" },
-    { id: "puma", label: "Puma" },
-    { id: "levi", label: "Levi's" },
-    { id: "zara", label: "Zara" },
-    { id: "h&m", label: "H&M" },
+    { id: "nike", label: "Indian" },
+    { id: "adidas", label: "Chinese" },
+    { id: "puma", label: "Italian" },
+    { id: "levi", label: "Mexican" },
+    { id: "zara", label: "Sweet" },
+    { id: "h&m", label: "Spicy" },
   ],
 };
 
