@@ -15,7 +15,7 @@ const adminSidebarMenuItems = [
     path: "/admin/dashboard",
     icon: <LayoutDashboard />,        
   },
-  {
+  { 
     id: "products",
     label: "Products",
     path: "/admin/products",
