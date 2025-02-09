@@ -84,7 +84,7 @@ Copy code
 git commit -m "Add feature-name"
 Push the branch:
 bash
-Copy code
+Copy code 
 git push origin feature-name
 Open a pull request.
 License
