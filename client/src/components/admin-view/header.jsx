@@ -23,6 +23,7 @@ function AdminHeader({ setOpen }) {
         > 
           <LogOut />
           Logout
+          <hr/>
         </Button>
       </div>
     </header>       
