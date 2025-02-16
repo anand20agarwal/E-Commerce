@@ -11,7 +11,7 @@ Features
 🔑 User Authentication: Login and signup functionality for users.
 💳 Checkout: Mock payment gateway integration for completing orders.
 📱 Responsive Design: Fully responsive for mobile, tablet, and desktop devices.
-
+   
 Technologies Used
 Frontend: React.js, Tailwind CSS
 State Management: Redux or Context API (mention what you're using)
