@@ -13,7 +13,7 @@ export const registerFormControls = [
     componentType: "input",
     type: "email",
   },
-  {
+  {         
     name: "password",
     label: "Password",
     placeholder: "Enter your password",
@@ -114,27 +114,27 @@ export const shoppingViewHeaderMenuItems = [
   },
   {
     id: "men",
-    label: "Indian",
+    label: "men",
     path: "/shop/listing",
   },
   {
-    id: "Chinese",
-    label: "Sweet",         
+    id: "women",
+    label: "women",         
     path: "/shop/listing",
   },
   {
     id: "kids",
-    label: "Itilain",
+    label: "kids",
     path: "/shop/listing",
   },
   {
     id: "footwear",
-    label: "Mexican",
+    label: "footwear",
     path: "/shop/listing",
   },
   {
     id: "accessories",
-    label: "Spicy",
+    label: "accessories",
     path: "/shop/listing",
   },
   {
