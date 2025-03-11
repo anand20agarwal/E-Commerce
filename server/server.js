@@ -19,7 +19,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 //create a separate file for this and then import/use that file here
 
 mongoose
-  .connect("mongodb+srv://admin:admin@cluster0.zggry.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://admin:<db_password>@cluster0.zggry.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5000;
 app.use(
   cors({
     origin: [
-      // "http://localhost:5173", 
+      "http://localhost:5173", 
       "https://e-commerce-1-by30.onrender.com"
     ], // ✅ Allow both local & deployed frontend
     methods: ["GET", "POST", "DELETE", "PUT"],
