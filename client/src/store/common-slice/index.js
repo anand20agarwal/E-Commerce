@@ -1,6 +1,9 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
+// Backend URL
+const API_BASE_URL = "https://e-commerce-v7dd.onrender.com";
+
 const initialState = {
   isLoading: false,
   featureImageList: [],
@@ -9,10 +12,7 @@ const initialState = {
 export const getFeatureImages = createAsyncThunk(
   "/order/getFeatureImages",
   async () => {
-    const response = await axios.get(
-      `http://localhost:5000/api/common/feature/get`
-    );
-
+    const response = await axios.get(`${API_BASE_URL}/api/common/feature/get`);
     return response.data;
   }
 );
@@ -20,11 +20,7 @@ export const getFeatureImages = createAsyncThunk(
 export const addFeatureImage = createAsyncThunk(
   "/order/addFeatureImage",
   async (image) => {
-    const response = await axios.post(
-      `http://localhost:5000/api/common/feature/add`,
-      { image }
-    );
-
+    const response = await axios.post(`${API_BASE_URL}/api/common/feature/add`, { image });
     return response.data;
   }
 );
