@@ -5,7 +5,7 @@ E-Commerce Platform
 A modern and fully functional e-commerce web application built with React and Tailwind CSS. This project demonstrates the implementation of an online shopping platform with key features like product listing, filtering, user authentication, and a shopping cart.
 
 Features
-🛍️ Product Listings: Display products with details like images, prices, and descriptions.
+🛍️ Product Listings: Display products with details like images, prices, and descriptions. 
 🔍 Search and Filters: Search for products and apply category-based or price-based filters.
 🛒 Shopping Cart: Add, remove, and update items in the cart.
 🔑 User Authentication: Login and signup functionality for users.
