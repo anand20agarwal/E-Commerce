@@ -2,7 +2,7 @@ live project
 
 https://e-commerce-1-by30.onrender.com
 
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------ 
 
 Here’s a sample README.md file template for an e-commerce project. Modify it to match your project’s specific details.
 
